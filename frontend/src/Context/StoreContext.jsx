@@ -104,7 +104,7 @@ import axios from "axios";
 export const StoreContext = createContext(null);
 
 // ✅ Declare VITE variable at the top
-const url = import.meta.env.VITE_API_URL;
+const url = "https://backend-5wtk53o1l-serena-sinhas-projects.vercel.app";
 
 const StoreContextProvider = (props) => {
 
